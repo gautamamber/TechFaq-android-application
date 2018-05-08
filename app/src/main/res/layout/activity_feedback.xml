@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amber.techfaq.Feedback">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:background="#797d7f"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t1"
+                android:justificationMode="inter_word"
+                android:layout_margin="30dp"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:text="@string/feedback"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:layout_below="@id/t1"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:id="@+id/t2"
+                android:textColor="#ffffff"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t2"
+
+                android:textSize="20dp"
+                android:id="@+id/i1"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:inputType="textEmailAddress"
+                android:layout_below="@id/i1"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:id="@+id/t3"
+                android:textColor="#ffffff"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t3"
+                android:id="@+id/i2"
+                android:requiresFadingEdge="horizontal"
+                android:textSize="20dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Institute:"
+                android:layout_below="@id/i2"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:id="@+id/t4"
+                android:textColor="#ffffff"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t4"
+                android:id="@+id/i3"
+                android:textSize="20dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/providefeedback"
+                android:layout_below="@id/i3"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+
+                android:id="@+id/t5"
+                android:textColor="#ffffff"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t5"
+                android:id="@+id/i4"
+                android:textSize="30dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                tools:ignore="InvalidId" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/comment"
+                android:layout_below="@id/i4"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+
+                android:id="@+id/t6"
+                android:textColor="#ffffff"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t6"
+
+                android:textSize="20dp"
+                android:id="@+id/i5"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:onClick="done"
+                android:id="@+id/b1"
+                android:textColor="#000000"
+                android:background="@drawable/buttonshape"
+                android:layout_margin="25dp"
+                android:layout_below="@id/i5"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

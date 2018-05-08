@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TechFaq???</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+
+    <string name="slide_1_desc">What is Computer Programming?</string>
+    <string name="amber">\@ambergautam</string>
+<string name="question">What is your Query?</string>
+    <string name="slide_2_desc">What is Android Development?</string>
+<string name="comment">Any other comments or suggestions?</string>
+<string name="providefeedback">Please provide feedback for our response:</string>
+    <string name="slide_3_desc">What is Web Development?</string>
+
+    <string name="feedback">To help us improve, please take out a few minutes and provide us with some valuable feedback. </string>
+    <string name="slide_4_desc">Which Programming Language should I learn First I am new?</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Hey, Are you new to programming and confused about, Where to start learning?
+Is your brain is full of questions ???</string>
+    <string name="quote">"The man who asks a question is a fool for a minute, the man who does not ask, is a fool for life." </string>
+    <string name="que1">\u2022 Which is the most popular programming language?</string>
+    <string name="que2">\u2022 Which Programming language should I learn first if I am new?</string>
+    <string name="que3">\u2022 Which programming language is most in demand?</string>
+    <string name="que4">\u2022 What is cloud?</string>
+    <string name="que5">\u2022 How to learn Android Development?t</string>
+    <string name="que6">\u2022 How to learn Web Development?</string>
+    <string name="que7">\u2022 Where to start Machine Learning?</string>
+    <string name="que8">\u2022 Importance of Data Structure and many more...</string>
+    <string name="que9">You came to the right place Just drop your Question and get answer from developing experts and enhance your skills. </string>
+    <string name="text">You have a question, we have the answer. Drop your query and get answers from the Developing Experts. </string>
+</resources>

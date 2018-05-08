@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TechFaq???"
+        android:textSize="50dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="80dp"
+        android:textColor="#808097"
+        android:textStyle="bold"
+
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_below="@id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:text="@string/slide_3_desc"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/slide_desc" />
+
+</RelativeLayout>
