@@ -244,8 +244,6 @@
             android:textAllCaps="false"
             android:textColor="#fff"
             android:textSize="20dp" />
-        
-
 
 
 
@@ -254,6 +252,21 @@
 
 
 </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="140dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:backgroundTint="#2eb2ff"
+        app:fabSize="mini"
+        android:onClick="search"
+        app:fabCustomSize="50dp"
+        app:srcCompat="@android:drawable/ic_search_category_default" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingActionButton1"
@@ -268,10 +281,10 @@
         app:fabSize="mini"
         android:onClick="query"
         app:fabCustomSize="50dp"
-
-
-
         app:srcCompat="@android:drawable/ic_input_add" />
+
+
+
 
 
 </RelativeLayout>

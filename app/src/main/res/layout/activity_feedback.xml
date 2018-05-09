@@ -42,7 +42,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/t2"
-
+                android:background="@drawable/inputshape"
+                android:layout_marginTop="20dp"
                 android:textSize="20dp"
                 android:id="@+id/i1"
 
@@ -70,7 +71,8 @@
                 android:id="@+id/i2"
                 android:requiresFadingEdge="horizontal"
                 android:textSize="20dp"
-
+                android:background="@drawable/inputshape"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 />
@@ -92,10 +94,12 @@
                 android:layout_below="@id/t4"
                 android:id="@+id/i3"
                 android:textSize="20dp"
-
+                android:background="@drawable/inputshape"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -115,7 +119,8 @@
                 android:layout_below="@id/t5"
                 android:id="@+id/i4"
                 android:textSize="30dp"
-
+                android:background="@drawable/inputshape"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 tools:ignore="InvalidId" />
@@ -136,7 +141,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/t6"
-
+                android:background="@drawable/inputshape"
+                android:layout_marginTop="20dp"
                 android:textSize="20dp"
                 android:id="@+id/i5"
                 android:layout_marginLeft="20dp"

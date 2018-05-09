@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".Query" />
-        <activity android:name=".Feedback"></activity>
+        <activity android:name=".Feedback" />
+        <activity android:name=".ViewListContents"></activity>
     </application>
 
 </manifest>

@@ -9,7 +9,10 @@ import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import static android.nfc.tech.MifareClassic.SIZE_MINI;
 import static android.support.design.widget.FloatingActionButton.SIZE_NORMAL;
@@ -41,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     }
 
     public void query(View view) {
@@ -52,4 +56,16 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(getApplicationContext(), Feedback.class);
         startActivity(i);
     }
+
+
+    public void search(View view) {
+        try{
+            Intent intent=new Intent(this,ViewListContents.class);
+            startActivity(intent);
+        }catch(Exception e)
+        {
+            Toast.makeText( this,"something wrong",Toast.LENGTH_SHORT ).show();
+        }
+    }
 }
+

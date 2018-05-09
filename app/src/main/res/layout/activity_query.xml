@@ -45,7 +45,8 @@
 
                 android:textSize="20dp"
                 android:id="@+id/i1"
-
+                android:background="@drawable/inputshape"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 />
@@ -70,7 +71,8 @@
                 android:id="@+id/i2"
                 android:requiresFadingEdge="horizontal"
                 android:textSize="20dp"
-
+                android:background="@drawable/inputshape"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 />
@@ -92,7 +94,8 @@
                 android:layout_below="@id/t4"
                 android:id="@+id/i3"
                 android:textSize="30dp"
-
+                android:background="@drawable/inputshape"
+                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 />

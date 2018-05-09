@@ -7,12 +7,12 @@
 
     <string name="slide_1_desc">What is Computer Programming?</string>
     <string name="amber">\@ambergautam</string>
-<string name="question">What is your Query?</string>
+    <string name="question">What is your Query?</string>
     <string name="slide_2_desc">What is Android Development?</string>
-<string name="comment">Any other comments or suggestions?</string>
-<string name="providefeedback">Please provide feedback for our response:</string>
+    <string name="comment">Any other comments or suggestions?</string>
+    <string name="providefeedback">Please provide feedback for our response:</string>
     <string name="slide_3_desc">What is Web Development?</string>
-
+    <string name="res">How much you satisfy with our response?</string>
     <string name="feedback">To help us improve, please take out a few minutes and provide us with some valuable feedback. </string>
     <string name="slide_4_desc">Which Programming Language should I learn First I am new?</string>
 

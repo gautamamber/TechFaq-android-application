@@ -1,16 +1,14 @@
 package com.example.amber.techfaq;
 
-/**
- * Created by amber on 5/5/18.
- */
-
 import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Created by Lincoln on 05/05/16.
+ * Created by amber on 9/5/18.
  */
+
 public class PrefManager {
+
     SharedPreferences pref;
     SharedPreferences.Editor editor;
     Context _context;
@@ -39,4 +37,3 @@ public class PrefManager {
     }
 
 }
-
